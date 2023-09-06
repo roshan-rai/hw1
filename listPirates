@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <style>  
+    .bg-light {
+    --bs-bg-opacity: 0;
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+}
+body{
+  background-image: url('AllFairy.png');
+  background-size: cover;
+}
+ 
+  </style>
+    
+  </head>
+  <body>
+ 
+<nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-4">
+    <h1>Welcome to the Fairies Home - PeterPan !!!</h1>
+    <h2>Fairies are residents of NeverLand. Fairies have their own specialized magical powers.</h2>    
+
+        
+         <div class="row">
+        <!-- Card 1 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="captainHook.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h2 class="card-title">Captain Hook</h2>
+                    <p class="card-text">Captain Hook             $2.</p>
+                    <a href="listFairies.html" class="btn btn-primary">Captain Hook is the primary antagonist of the story and the captain of the pirate ship, the Jolly Roger. He is known for his fear of the crocodile, his hook hand, and his ongoing feud with Peter Pan.!!!</a>
+                </div>
+            </div>
+        </div>
+
+    
+    <!-- Card 2 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="smee.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h2 class="card-title">Smee</h2>
+                    <p class="card-text">Smee             $2.</p>
+                    <a href="smee.html" class="btn btn-primary">Mr. Smee is a kind-hearted and bumbling pirate who serves as the ship's bosun (boatswain) on the Jolly Roger. He is one of the few pirates who is somewhat sympathetic and not entirely villainous.!!!</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="billJukes.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h2 class="card-title">Bill Jukes</h2>
+                    <p class="card-text">Bill Jukes             $2.</p>
+                    <a href="The lost kids.html" class="btn btn-primary">Bill Jukes is one of Captain Hook's loyal crew members. He is often portrayed as a rough and ruthless pirate.!!!</a>
+                </div>
+            </div>
+        </div>
+
+       <!-- Card 4 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                 <img src="Iridesa.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h2 class="card-title"> Iridessa </h2>
+    <p class="card-text"> Iridessa                   $2.</p>
+    <a href="Iridesa.html" class="btn btn-primary"> Iridessa is a light-talent fairy. 
+      She has the power to control and manipulate light, often using it to create beautiful displays. !!!</a>
+  </div>
+            </div>
+        </div>
+
+       <!-- Card 5 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                 <img src="cecco.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h2 class="card-title"> Cecco </h2>
+    <p class="card-text"> Cecco        $2.</p>
+    <a href="cecco.html" class="btn btn-primary"> Cecco is another member of Captain Hook's crew. He is often depicted as a grizzled and fierce pirate.!!!</a>
+  </div>
+            </div>
+        </div>
+
+       <!-- Card 6 -->
+<div class="col-md-4 mb-4">
+    <div class="card">
+    <img src="noodler.png" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h2 class="card-title"> Noodler </h2>
+    <p class="card-text"> Noodler             $2 !!!.</p>
+    <a href="vidia.html" class="btn btn-primary"> Noodler is yet another pirate who follows Captain Hook's orders. Like the others, he is part of the villainous crew that clashes with Peter Pan and the Lost Boys. !!!</a>
+  </div>
+        </div>
+        </div>
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
